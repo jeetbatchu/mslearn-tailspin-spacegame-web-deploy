@@ -23,7 +23,7 @@ stages:
     - task: UseDotNet@2
       displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
       inputs:
-        version: '$(dotnetSdkVersion)'
+       version: '$(dotnetSdkVersion)'
 
     - task: Npm@1
       displayName: 'Run npm install'
